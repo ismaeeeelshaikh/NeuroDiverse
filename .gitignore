@@ -1,0 +1,51 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Face recognition models in root directory (duplicated in public/models)
+face_expression_model-shard1
+face_expression_model-weights_manifest.json
+face_landmark_68_model-shard1
+face_landmark_68_model-weights_manifest.json
+face_recognition_model-shard1
+face_recognition_model-shard2
+face_recognition_model-weights_manifest.json
+tiny_face_detector_model-shard1
+tiny_face_detector_model-weights_manifest.json
+
+# Large audio files can be downloaded at runtime instead
+# Uncomment if needed
+# /public/audio/**/*.mp3
+
+# Misc
+bash.exe.stackdump
